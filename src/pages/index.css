@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-side{
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
