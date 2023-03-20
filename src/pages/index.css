@@ -24,3 +24,149 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+
+/*header css */
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  
+  .header-text h3 {
+    font-size: 26px;
+    align-self: flex-start;
+    color: #10b3b5;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .header-text h2 {
+    font-size: 64px;
+    margin: 0;
+    align-self: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .header-text h4 {
+    font-size: 24px;
+    margin: 0;
+    align-self: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .header-text button {
+    font-size: 24px;
+    align-self: flex-start;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #66e2e4;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .header-illustration img {
+    max-width: 600px;
+    margin-right: 90px;
+  }
+  
+  
+  /* Stats Count section */
+  .stats-count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1293e3;
+    padding: 50px 0;
+  }
+  
+  .stats-count div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stats-count h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .stats-count h4 {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  /* Our Services section */
+  .our-services {
+    background-color: #ffffff;
+    color: #66e2e4;
+    padding: 50px 0;
+  }
+  
+  .our-services h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .our-services h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #1293e3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
