@@ -5,14 +5,14 @@
 
 }
 nav{
-    width: 100vw;
+    width: 98vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     
 }
 .nav-side{
-    width: 50vh;
+    width: 60vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -25,6 +25,7 @@ nav{
     flex-wrap: wrap;
 } */
 
+
 /*header css */
 /* Header section */
 header {
@@ -33,6 +34,23 @@ header {
     align-items: center;
     padding: 50px;
     background-color: #f9f9f9;
+    border-radius: 50px;
+    border:2px solid #10b3b5;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    position: relative;
+  }
+  
+ header::before {
+    content: "";
+    position: absolute;
+    top: -2px; /* adjust position to match top border */
+    left: -2px; /* adjust position to match left border */
+    width: calc(100% + 4px); /* adjust width to match element width */
+    height: 50px; /* adjust height to match border width */
+    background-color: #10b3b5; /* fill color */
+    z-index: -1; /* position behind element */
   }
   
   .header-text {
@@ -72,7 +90,7 @@ header {
     padding: 20px 40px;
     border: none;
     border-radius: 10px;
-    background-color: #66e2e4;
+    background-color: #10b3b5;
     color: white;
     cursor: pointer;
   }
@@ -169,4 +187,5 @@ header {
     line-height: 1.5;
     margin-bottom: 20px;
   }
+
   

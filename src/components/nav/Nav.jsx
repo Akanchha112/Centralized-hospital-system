@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./Nav.css";
 const Nav=()=>{
     const navigate=useNavigate();
     const hospitalfunc=()=>{
@@ -6,14 +7,14 @@ const Nav=()=>{
     }
     return(
         <>
-        <nav>
+        <nav className="navbar">
                 <div className="logo">
-                    logo
+                    +
                 </div>
                 <div className="nav-side">
-                    <div onClick={hospitalfunc}>Hospital</div>
-                    <div>Location</div>
-                    <button>Login</button>
+                    <div onClick={hospitalfunc} className="hospital">Hospital</div>
+                    <div className="location">Location</div>
+                    <button className="login-btn">Login</button>
                 </div>
             </nav>
         </>
