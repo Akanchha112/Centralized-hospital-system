@@ -1,8 +1,18 @@
 import { Link, useLocation } from "react-router-dom";
 import "./index.css";
+import GoogleMapReact from 'google-map-react';
 const EachHospital = () => {
+    const location = useLocation();
+    const lati=location.state.ele.latitude;
+    const long=location.state.ele.longitude;
+    const defaultProps = {
+        center: {
+          lat: lati,
+          lng: long
+        },
+        zoom: 11
+      };
 
-const location = useLocation();
     return (
         <div className="map-location">
             <div className="map-location-info">
@@ -21,8 +31,13 @@ const location = useLocation();
                 <p>Number of ICU: {location.state.ele.numICU}</p>
                 <p>Total Rooms: {location.state.ele.totalRooms}</p>
             </div>
-            <div className="map-location-map">
-                {/* Your map component goes here */}
+            <div className="map-location-map" style={{ height: '40vh', width: '60%' }}>
+            <GoogleMapReact
+        bootstrapURLKeys={{ key: "" }}
+        defaultCenter={defaultProps.center}
+        defaultZoom={defaultProps.zoom}
+      >
+        </GoogleMapReact>
             </div>
         </div>
     );
