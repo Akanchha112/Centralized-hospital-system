@@ -8,7 +8,7 @@ const Landing = () => {
     }
     return (
         <>
-            <Nav/>
+            <Nav />
             <header>
                 <div className="header-text">
                     <h3>Connecting HealthCare Nationwide </h3>
