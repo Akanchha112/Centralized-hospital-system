@@ -1,6 +1,11 @@
 import Nav from "../components/nav/Nav";
+import { useNavigate } from "react-router-dom";
 import "./index.css";
 const Landing = () => {
+    const navigate=useNavigate();
+    const hospitalfunc=()=>{
+        navigate("/hospitals");
+    }
     return (
         <>
             <Nav/>
@@ -9,7 +14,7 @@ const Landing = () => {
                     <h3>Connecting HealthCare Nationwide </h3>
                     <h2>Making Inventory Management Easy</h2>
                     <h4>Just one click away from all your inventory management</h4>
-                    <button>View Hospitals</button>
+                    <button onClick={hospitalfunc}>View Hospitals</button>
                 </div>
                 <div className="header-illustration">
                     <img src="./images/headillust.png" alt="headillust" />
@@ -32,6 +37,14 @@ const Landing = () => {
                     <h2>6</h2>
                     <h4>Doctors</h4>
                 </div>
+            </section>
+            <section className="our-services">
+                  <h3>Our Services</h3>
+                  <h2>Services For Your Convineince</h2>
+                  <div className="card"></div>
+                  <div className="card"></div>
+                  <div className="card"></div>
+                  <div className="card"></div>
             </section>
         </>
     );

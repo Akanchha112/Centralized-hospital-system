@@ -17,3 +17,10 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
+.hospital-card-container{
+    margin-top: 50px;
+    width: 100vw;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
