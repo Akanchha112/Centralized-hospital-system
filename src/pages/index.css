@@ -17,13 +17,13 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-.hospital-card-container{
+/*.hospital-card-container{
     margin-top: 50px;
     width: 100vw;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 /*header css */
 /* Header section */
@@ -144,7 +144,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
   
-  .card::before {
+ /* .card::before {
     content: "";
     display: block;
     width: 100%;
@@ -152,7 +152,7 @@ header {
     background-color: #1293e3;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-  }
+  }*/
   
   .card-content {
     padding: 20px;
