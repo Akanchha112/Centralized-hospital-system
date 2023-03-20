@@ -24,3 +24,147 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+
+/*header css */
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .header-text {
+    width: 50%;
+  }
+  
+  .header-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1293e3;
+  }
+  
+  .header-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .header-text h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666666;
+  }
+  
+  .header-text button {
+    background-color: #1293e3;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .header-text button:hover {
+    background-color: #ffffff;
+    color: #1293e3;
+    border: 2px solid #1293e3;
+  }
+  
+  .header-illustration img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Stats Count section */
+  .stats-count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .stats-count div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stats-count h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .stats-count h4 {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  /* Our Services section */
+  .our-services {
+    background-color: #1293e3;
+    color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .our-services h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .our-services h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #1293e3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
