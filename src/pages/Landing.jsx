@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 import "./index.css";
 
 //icons
-import {GiHospital} from 'react-icons/gi';
-import {MdInventory} from 'react-icons/md';
-import {MdOutlineInventory} from 'react-icons/md';
-import {RiStethoscopeFill} from 'react-icons/ri'
+import { GiHospital } from 'react-icons/gi';
+import { MdInventory } from 'react-icons/md';
+import { MdOutlineInventory } from 'react-icons/md';
+import { RiStethoscopeFill } from 'react-icons/ri'
 
 const Landing = () => {
-    const navigate=useNavigate();
-    const hospitalfunc=()=>{
+    const navigate = useNavigate();
+    const hospitalfunc = () => {
         navigate("/hospitals");
     }
     return (
@@ -47,40 +47,40 @@ const Landing = () => {
             </section>
 
             <section className="our-services">
-                  <h3>Our Services</h3>
-                  <h2>Services For Your Convineince</h2>
-                  <div className="cardSection">
-                    
-                  <div className="card">
+                <h3>Our Services</h3>
+                <h2>Services For Your Convineince</h2>
+                <div className="cardSection">
+
+                    <div className="card">
                         <div className="icon">
-                        <GiHospital size={60} />
-                            </div>
+                            <GiHospital size={60} />
+                        </div>
                         <h3>Hospital</h3>
-                  </div>
-                  <div className="card">
-                    <div className="icon">
-                        <MdInventory size={60}/>
+                    </div>
+                    <div className="card">
+                        <div className="icon">
+                            <MdInventory size={60} />
                         </div>
                         <h3>Inventory</h3>
-                  </div>
-                  <div className="card">
-                    <div className="icon">
-                    <MdOutlineInventory size={60}/>
                     </div>
-                       
+                    <div className="card">
+                        <div className="icon">
+                            <MdOutlineInventory size={60} />
+                        </div>
+
                         <h3>Stock</h3>
-                  </div>
-                  <div className="card">
-                    <div className="icon">
-                    <RiStethoscopeFill size={60}/>
                     </div>
-                        
+                    <div className="card">
+                        <div className="icon">
+                            <RiStethoscopeFill size={60} />
+                        </div>
+
                         <h3>Doctors</h3>
-                  </div>
-                  </div>
+                    </div>
+                </div>
             </section>
 
-            
+
         </>
     );
 }

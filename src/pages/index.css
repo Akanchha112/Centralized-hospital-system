@@ -172,7 +172,11 @@ header {
     margin-bottom: 50px;
  
   }
-  
+  .cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
   .card {
     width: 300px;
     height: 200px;
