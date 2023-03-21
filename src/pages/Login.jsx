@@ -13,8 +13,8 @@ const AppContainer = styled.div`
 const Login=()=>{
     return(
         <AppContainer>
-      <AccountBox />
-    </AppContainer>
+        <AccountBox />
+        </AppContainer>
     )
 }
 export default Login;

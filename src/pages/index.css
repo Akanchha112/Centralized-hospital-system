@@ -214,6 +214,7 @@ header {
 
 /*Each hospital css*/
 .map-location{
+    /* position: absolute; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -224,27 +225,28 @@ header {
 
 }
 .map-location-info{
-    padding-left:20vh;
+    /* padding-left:20vh; */
     display: flex;
-    justify-content: space-around;
-    align-items:stretch;
+    /* justify-content: center; */
+    align-items:center;
     width: 100%;
     flex-direction: column;
 
 }
-.map-location-info button{
-    width: 28vh;
-    height: 5vh;
-    background-color: #10b3b5;
-    color: white;
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
+.sub-info{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    width: 100%;
+    min-height: 90vh;
 }
-.map-location-info button:hover{
-    background-color: #17e4e7;
-    color: #828282;
+.sub-info h3{
+    margin-top: 20px;
 }
+.sub-info p{
+    margin-top: 30px;
+}
+
 /* .map-location-info p{
     background-color: #10b3b5;
     width: 100%;
@@ -276,4 +278,43 @@ header {
     to {
       transform: rotate(360deg);
     }
+  }
+  /*inventory css*/
+  .inven-head{
+    cursor: pointer;
+  }
+  .inven-head:hover{
+    color: #10b3b5;
+  }
+
+  /*asset css*/
+  #asset{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(128, 128, 128, 0.607);
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .assetContainer{
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    /* color: #10b3b5; */
+    margin: auto;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .closeasset{
+    cursor: pointer;
+    color: red;
+  }
+  .closeasset:hover{
+    color: rgb(5, 5, 5);
   }
