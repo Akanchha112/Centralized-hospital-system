@@ -49,6 +49,8 @@ const Landing = () => {
             <section className="our-services">
                   <h3>Our Services</h3>
                   <h2>Services For Your Convineince</h2>
+                  <div className="cardSection">
+                    
                   <div className="card">
                         <div className="icon">
                         <GiHospital size={60} />
@@ -74,6 +76,7 @@ const Landing = () => {
                     </div>
                         
                         <h3>Doctors</h3>
+                  </div>
                   </div>
             </section>
 

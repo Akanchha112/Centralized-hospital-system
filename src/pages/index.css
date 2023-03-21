@@ -17,13 +17,14 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-.hospital-card-container{
+/*.hospital-card-container{
     margin-top: 50px;
     width: 100vw;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-}
+} */
+
 
 /*header css */
 /* Header section */
@@ -166,8 +167,6 @@ header {
     background-color: #10b3b5;
     color:white;
   }
-
-  
   .card-content {
     padding: 20px;
   }
@@ -183,9 +182,8 @@ header {
     line-height: 1.5;
     margin-bottom: 20px;
   }
-
-  .icon{
-    display: flex;
-    justify-content: center;
-  }
   
+  .card .icon{
+    align-items: center;
+
+  }
