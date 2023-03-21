@@ -19,10 +19,10 @@ const Hospitals = () => {
             <div className="hospital-card-container">
             {Asset.map((ele)=>{
                 return(
-                <div className="card" onClick={()=>hospitalCardHandle(ele)}>
+                <div className="Hospitalcard" onClick={()=>hospitalCardHandle(ele)}>
                     <img src={ele.url} alt="" height="80px"/>
                     <div>
-                        {ele.name}
+                        <span><h3>{ele.name}</h3> </span>
                         {ele.address}
                     </div>
                 </div>

@@ -5,6 +5,9 @@ const Nav=()=>{
     const hospitalfunc=()=>{
         navigate("/hospitals");
     }
+    const loginHandle=()=>{
+        navigate("/signin")
+    }
     return(
         <>
         <nav className="navbar">
@@ -14,7 +17,7 @@ const Nav=()=>{
                 <div className="nav-side">
                     <div onClick={hospitalfunc} className="hospital">Hospital</div>
                     <div className="location">Location</div>
-                    <button className="login-btn">Login</button>
+                    <button className="login-btn" onClick={loginHandle}>Login</button>
                 </div>
             </nav>
         </>

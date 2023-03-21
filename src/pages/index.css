@@ -17,13 +17,37 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-/*.hospital-card-container{
+.hospital-card-container{
     margin-top: 50px;
     width: 100vw;
     justify-content: space-around;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-} */
+}
+.Hospitalcard{
+    margin: 20px 0;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 310px;
+    height: 150px;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    /* background-color:  #12c5c5; */
+    /* padding: 0 10px; */
+}
+.Hospitalcard:hover{
+    background-color:  #12c5c5;
+    color: white;
+    border-color: white;
+    cursor:pointer;
+}
+.Hospitalcard img{
+    border-radius: 3px;
+    margin: 0 20px;
+    
+}
 
 
 /*header css */
@@ -188,4 +212,68 @@ header {
     margin-bottom: 20px;
   }
 
+/*Each hospital css*/
+.map-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.map-location img{
+    /* width:98%; */
+    height: 100vh;
+
+}
+.map-location-info{
+    padding-left:20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    width: 100%;
+    flex-direction: column;
+
+}
+.map-location-info button{
+    width: 28vh;
+    height: 5vh;
+    background-color: #10b3b5;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.map-location-info button:hover{
+    background-color: #17e4e7;
+    color: #828282;
+}
+/* .map-location-info p{
+    background-color: #10b3b5;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+} */
+
+/*login css*/
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
   
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
