@@ -41,7 +41,7 @@ const Landing = () => {
                     <h4>Stocks</h4>
                 </div>
                 <div>
-                    <h2>6</h2>
+                    <h2>140</h2>
                     <h4>Doctors</h4>
                 </div>
             </section>
