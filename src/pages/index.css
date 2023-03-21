@@ -130,7 +130,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1293e3;
+    background-color: #10b3b5;
     padding: 50px 0;
   }
   
@@ -143,18 +143,18 @@ header {
   .stats-count h2 {
     font-size: 36px;
     font-weight: bold;
-    color: #333333;
+    color: #ffffff;
   }
   
   .stats-count h4 {
     font-size: 18px;
-    color: #666666;
+    color: #f9f9f9;
   }
   
   /* Our Services section */
   .our-services {
     background-color: #ffffff;
-    color: #66e2e4;
+    color: #10b3b5;
     padding: 50px 0;
   }
   
@@ -170,6 +170,7 @@ header {
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
+ 
   }
   
   .card {
@@ -177,25 +178,19 @@ header {
     height: 200px;
     background-color: #ffffff;
     margin: 0 auto;
+    padding: 20px 20px;
     margin-bottom: 50px;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;  
   }
   
   .card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #10b3b5;
+    color:white;
   }
-  
- /* .card::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 10px;
-    background-color: #1293e3;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }*/
-  
   .card-content {
     padding: 20px;
   }
@@ -211,6 +206,9 @@ header {
     line-height: 1.5;
     margin-bottom: 20px;
   }
+  
+  .card .icon{
+    align-items: center;
 
 /*Each hospital css*/
 .map-location{
